@@ -280,11 +280,15 @@ a{
   left: 0;
 }
 .main-navigation > ul > li{
-  padding-bottom: 2px;
+  padding-top: 2px;
   border-bottom: 2px solid #d7d7d7;
+}
+.main-navigation > ul > li:nth-child(5) {
+  border: none;
 }
 .main-navigation > ul > li:first-child{
   border-bottom: none;
+  padding-top: 0;
 }
 .main-navigation > ul > li:last-child{
   border-bottom: none;
@@ -343,14 +347,14 @@ a{
   list-style: none;
 }
 .is-active {
-  background: #fff;
+  background-color: #dae0f7;
   position: relative;
  }
  .is-active::after {
   content: ''; 
   position: absolute; 
   left: 214px; 
-  bottom: 117px;
+  bottom: 115px;
   border: 18px solid transparent; 
   border-left: 10px solid #3e4970;
  }
